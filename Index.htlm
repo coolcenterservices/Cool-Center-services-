@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Center Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f6f6f6;
+            color: #333;
+        }
+        header {
+            background: #1A73E8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .services {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000020;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1A73E8;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cool Center Services</h1>
+    <p>Votre partenaire pour un service rapide, fiable et professionnel</p>
+</header>
+
+<section class="services">
+    <h2>Nos services</h2>
+    <ul>
+        <li>Assistance WhatsApp</li>
+        <li>Création de documents</li>
+        <li>Organisation digitale</li>
+        <li>Conseils et accompagnement</li>
+    </ul>
+</section>
+
+<section class="services">
+    <h2>Contact</h2>
+    <p>Téléphone / WhatsApp : <strong>+243 …</strong></p>
+    <p>Email : <strong>coolcenterservices@gmail.com</strong></p>
+</section>
+
+<footer>
+    © 2025 Cool Center Services — Tous droits réservés
+</footer>
+
+</body>
+</html>
