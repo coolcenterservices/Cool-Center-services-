@@ -3,83 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Center Services</title>
+    <title>Cool Center Services - Réfrigération & Climatisation</title>
 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background: #f4f6f9;
             color: #333;
         }
 
         header {
             background: #0b4f6c;
             color: white;
-            padding: 20px;
+            padding: 25px 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 28px;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background: #08384f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
         }
 
         .section {
-            padding: 20px;
-            margin: 20px;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
             background: white;
+            margin-top: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        h2 {
+        .section h2 {
             color: #0b4f6c;
+            margin-bottom: 10px;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+            font-size: 18px;
+        }
+
+        .services-list li {
+            background: #e8f4fa;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-left: 5px solid #0b4f6c;
+            border-radius: 5px;
         }
 
         footer {
-            margin-top: 30px;
+            text-align: center;
             background: #0b4f6c;
             color: white;
-            text-align: center;
             padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Cool Center Services</h1>
-</header>
+    <header>
+        <h1>Cool Center Services</h1>
+        <p>Spécialiste en climatisation & réfrigération</p>
+    </header>
 
-<div class="section">
-    <h2>Nos Services</h2>
-    <p>
-        - Froid industriel et domestique<br>
-        - Climatisation<br>
-        - Réfrigération<br>
-        - Congélation<br>
-        - Installation vidéo surveillance<br>
-        - Installation panneaux solaires<br>
-        - Électricité bâtiment et automobile<br>
-        - Sécurité électronique<br>
-        - Installation garage électrique<br>
-    </p>
-</div>
+    <nav>
+        <a href="#about">Présentation</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<div class="section">
-    <h2>Contact</h2>
-    <p>
-        📞 +243 xxx xxx xxx<br>
-        📍 Kinshasa, RDC<br>
-        ✉️ coolcenterservices@gmail.com
-    </p>
-</div>
-
-<footer>
-    © 2025 Cool Center Services – Tous droits réservés
-</footer>
-
-</body>
-</html>
+    <section class="section" id="about">
+        <h2>Qui sommes-nous ?</h2>
+        <p>
+            Cool Center Services est une entreprise spécialisée dans la climatisation,
+            le froid domestique et industriel. Nous garantissons un travail propre, rapide
+            et professionnel pour tous vos besoins d’installation, entretien et dépannage.
+        </p>
+    </section>
