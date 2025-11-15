@@ -9,73 +9,115 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f4f4;
+            background-color: #f5f5f5;
             color: #333;
         }
 
         header {
-            background: #0b84f3;
+            background: #0b4f6c;
             color: white;
+            padding: 20px;
             text-align: center;
-            padding: 40px 20px;
         }
 
-        header img {
-            width: 140px;
-            height: auto;
-            border-radius: 50%;
-            margin-bottom: 15px;
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 0;
         }
 
         .section {
             background: white;
-            padding: 25px;
-            margin: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
         }
 
-        h2 {
-            color: #0b84f3;
+        .section h2 {
+            color: #0b4f6c;
+            margin-top: 0;
+        }
+
+        .services-list li {
+            margin-bottom: 8px;
         }
 
         footer {
-            background: #0b84f3;
+            background: #0b4f6c;
             color: white;
             text-align: center;
-            padding: 15px;
-            margin-top: 30px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            font-size: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0b4f6c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <img src="logo.png" alt="Logo Cool Center Services">
-        <h1>Cool Center Services</h1>
-        <p>Professionnalisme – Rapidité – Qualité</p>
-    </header>
+<header>
+    <h1>Cool Center Services</h1>
+    <p>Climatisation • Réfrigération • Sécurité • Électricité • Panneaux Solaires</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>À propos</h2>
+        <p>
+            Cool Center Services est une entreprise spécialisée dans l'installation, la maintenance 
+            et le dépannage d'équipements techniques pour particuliers et entreprises.
+        </p>
+    </div>
 
     <div class="section">
         <h2>Nos Services</h2>
-        <p>• Maintenance informatique</p>
-        <p>• Installation réseaux & Wi-Fi</p>
-        <p>• Dépannage PC & smartphones</p>
-        <p>• Conception sites web</p>
-        <p>• Assistance technique générale</p>
+        <ul class="services-list">
+            <li>❄️ Installation & maintenance de climatiseurs</li>
+            <li>🥶 Réfrigération & congélation</li>
+            <li>🎥 Installation vidéo surveillance</li>
+            <li>🔐 Sécurité électronique & alarmes</li>
+            <li>⚡ Électricité bâtiment & automobile</li>
+            <li>☀️ Installation panneaux solaires</li>
+            <li>🚗 Garage automobile (électricité & diagnostics)</li>
+        </ul>
     </div>
 
     <div class="section">
         <h2>Contact</h2>
-        <p>📞 +243 000 000 000</p>
-        <p>📧 coolcenterservices@gmail.com</p>
-        <p>📍 RDC – Kinshasa</p>
+        <p class="contact-info">
+            📞 Téléphone : <strong>Ton numéro ici</strong><br>
+            📍 Adresse : <strong>Ton adresse ici</strong><br>
+            ✉️ Email : <strong>Ton email ici</strong>
+        </p>
+        <a class="btn" href="https://wa.me/243"... target="_blank">Nous contacter sur WhatsApp</a>
     </div>
 
-    <footer>
-        © 2025 Cool Center Services – Tous droits réservés.
-    </footer>
+</div>
+
+<footer>
+    © 2025 Cool Center Services — Tous droits réservés
+</footer>
 
 </body>
 </html>
